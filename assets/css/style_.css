@@ -25,6 +25,9 @@ header{
     margin: 0 auto;
 }
 
+body{
+    background-color:#dddddd;
+}
 
 #bio{
     color:#4aaaa5;
@@ -35,30 +38,42 @@ header{
     margin-right: 30px;    
 }
 
-img{
-    float: left;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 10px;
-}
-
-body{
-    background-color:#dddddd;
-}
-
-#container{
+#portfolio{
     background-color:#ffffff;
     width: 960px;
-    height: 500px;
+    height: 800px;
     top:-20px;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
-p{
-    padding-right:30px;
-    padding-left:30px;
+.row,
+.row > .column {
+  padding: 8px;
 }
 
+.row{
+    margin: 0 autio;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+h3{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    text-align: center;
+}
 #footer{
     position:fixed;
     left:0;
